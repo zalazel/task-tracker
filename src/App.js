@@ -3,7 +3,7 @@ import { Tasks } from './components/Tasks';
 import { useState, useEffect } from 'react';
 import AddTask from './components/AddTask';
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom'
+import { BrowserRouter as Router, Route} from 'react-router-dom'
 import About from './components/About';
 
 const { default: Header } = require("./components/Header");
